@@ -1,0 +1,16 @@
+export enum BodyPart {
+  Head = 'hd',
+  Body = 'bd',
+  ClothesLegs = 'lg',
+  RightHand = 'rh',
+  LeftHand = 'lh',
+  LeftShoulder = 'ls',
+  RightShoulder = 'rs',
+  RightItem = 'ri',
+  Shoes = 'sh',
+  Face = 'fc',
+  Eyes = 'ey',
+  Hair = 'hr',
+  ClothesChest = 'ch',
+  Headphones = 'ht',
+}

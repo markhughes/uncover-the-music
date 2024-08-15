@@ -1,0 +1,22 @@
+on(release){
+   _level0.sStatus = "Logging in....";
+   _level0._session.setLoginName("person_id");
+   _level0._session.setLoginPassword(this.sPersonId);
+   if(this.mcProdIp.getState())
+   {
+      _level0._session.setIpAddress(this.sProdIp);
+   }
+   if(this.mcTestIp.getState())
+   {
+      _level0._session.setIpAddress(this.sTestIp);
+   }
+   if(this.mcDevIp.getState())
+   {
+      _level0._session.setIpAddress(this.sDevIp);
+   }
+   if(this.mcLocalIp.getState())
+   {
+      _level0._session.setIpAddress(this.sLocalIp);
+   }
+   _level0.gotoAndPlay("Connect");
+}

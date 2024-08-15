@@ -1,0 +1,2 @@
+trace("FRAME: Loading");
+stop();

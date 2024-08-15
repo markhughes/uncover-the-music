@@ -1,0 +1,26 @@
+on(release){
+   _level0.sStatus = "Logging in....";
+   _level0._session.setLoginName("guest");
+   _level0._session.setLoginPassword(null);
+   if(this.mcProdIp.getState())
+   {
+      _level0._session.setIpAddress(this.sProdIp);
+      _level0._session.setPort(9000);
+   }
+   if(this.mcTestIp.getState())
+   {
+      _level0._session.setIpAddress(this.sTestIp);
+      _level0._session.setPort(9000);
+   }
+   if(this.mcDevIp.getState())
+   {
+      _level0._session.setIpAddress(this.sDevIp);
+      _level0._session.setPort(9000);
+   }
+   if(this.mcLocalIp.getState())
+   {
+      _level0._session.setIpAddress(this.sLocalIp);
+      _level0._session.setPort(9000);
+   }
+   _level0.gotoAndPlay("Connect");
+}

@@ -1,0 +1,58 @@
+.gameover {
+    position: fixed;
+  }
+
+  .banner {
+    background-image: url(../../../assets/ui/end/gameover.png);
+    height: 90px;
+    width: 396px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+
+  .header {
+    background-image: url(../../../assets/ui/end/header.png);
+    height: 38px;
+    width: 396px;
+    background-position: right;
+    background-repeat: no-repeat;
+
+  }
+
+  .line {
+    background-image: url(../../../assets/ui/end/line.png);
+    // 369 × 35
+    width: 396px;
+    height: 35px;
+    background-position: right;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -8px;
+
+    display: flex;
+    flex-direction: row;
+
+    > div {
+      line-height: 36px;
+      text-align: right;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 600;
+     color: #2e2e2e;
+
+    }
+    > :nth-child(1) {
+      width: 160px;
+    }
+    > :nth-child(2) {
+      width: 90px;
+    }
+    > :nth-child(3) {
+      width: 55px;
+    }
+    > :nth-child(4) {
+      width: 70px;    }
+    
+    
+    
+  }

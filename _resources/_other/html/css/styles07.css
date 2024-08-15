@@ -1,0 +1,204 @@
+body {
+	margin-top:0px; 
+	margin-left: 0px; 
+	margin-right: 0px; 
+	margin-bottom: 0px;
+}
+#registrationRight { 
+	background-image: url(/web/20071006142241im_/http://www.mycoke.com/images/2007/regRight.gif); 
+	background-repeat: no-repeat; 
+	width: 237px; 
+	height: 318px; 
+}
+#registration1Left { 
+	background-image: url(/web/20071006142241im_/http://www.mycoke.com/images/2007/regStep1L.jpg); 
+	background-repeat: no-repeat; 
+	width: 237px; 
+	height: 318px; 
+}
+#registration2Left { 
+	background-image: url(/web/20071006142241im_/http://www.mycoke.com/images/2007/regStep2L.jpg); 
+	background-repeat: no-repeat; 
+	width: 237px; 
+	height: 318px; 
+}
+#registration3Left { 
+	background-image: url(/web/20071006142241im_/http://www.mycoke.com/images/2007/regStep3L.jpg); 
+	background-repeat: no-repeat; 
+	width: 237px; 
+	height: 318px; 
+}
+.registrationText { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #7b7978; 
+}
+.registrationError { 
+	color: #e61d2b;
+}
+.registrationText a { 
+	font-weight: bold; 
+	color: #7b7978; 
+}
+.registrationField { 
+	background-image: url(/web/20071006142241im_/http://www.mycoke.com/images/2007/inputBackground.gif); 
+	background-repeat: no-repeat; 
+}
+.registrationInput { 
+	margin-left: 3px; 
+	width: 133px; 
+	height: 16px; 
+	border: 0; 
+}
+#registrationCaptcha { 
+	background-image: url(/web/20071006142241im_/http://www.mycoke.com/images/2007/captchaBackground.jpg); 
+	height: 56px; 
+	width: 156px; 
+}
+.topLeft { 
+	background-image:url(/web/20071006142241im_/http://www.mycoke.com/images/2007/topLeft.gif); 
+	width:7px; 
+	height:7px; 
+	background-repeat:no-repeat;
+}
+.topRight { 
+	background-image:url(/web/20071006142241im_/http://www.mycoke.com/images/2007/topRigth.gif); 
+	width:7px; 
+	height:7px; 
+	background-repeat:no-repeat;
+}
+.bottomLeft { 
+	background-image:url(/web/20071006142241im_/http://www.mycoke.com/images/2007/bottomLeft.gif); 
+	background-position:bottom; 
+	width:7px; 
+	height:7px; 
+	background-repeat:no-repeat;
+}
+.bottomRight { 
+	background-image:url(/web/20071006142241im_/http://www.mycoke.com/images/2007/bottomRigth.gif); 
+	background-position:bottom; 
+	width:7px; 
+	height:7px; 
+	background-repeat:no-repeat;
+}
+.boxBgColor { 
+	background-color:#e9e9e9;
+}
+.red { 
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+	color:#E20A16; 
+	font-size:11px; 
+	font-weight:normal;
+}
+.black { 
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+	color:#000000; 
+	font-size:10px; 
+	font-weight:bold;
+}
+.text { 
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+	color:#7B7978; 
+	font-size:11px; 
+	font-weight:normal;
+	text-align: justify;
+}
+.bold_text { 
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+	color:#7B7978; 
+	font-size:10px; 
+	font-weight:bold;
+}
+a.text:link, a.text:visited {	
+	color: #7B7978; 
+	font-size:11px; 
+	text-decoration: none; 
+	font-weight:normal;
+}
+a.text:hover {	
+	color: #7B7978; 
+	font-size:11px; 
+	text-decoration: underline; 
+	font-weight:normal;
+}
+a.red:link, a.red:visited {	
+	color: #E20A16; 
+	font-size:11px; 
+	font-weight:normal;
+}
+a.red:hover {	
+	color: #E20A16; 
+	font-size:11px; 
+	text-decoration: underline; 
+	font-weight:normal;
+}
+
+.close_link{
+text-decoration:underline;
+}
+
+.main_link {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #ff0000;
+	font-size: 10px;
+}
+
+.main_link:hover:visited {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #ff0000;
+	font-size: 10px;
+}
+
+.privacyRed { 
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+	color:#E61D2B; 
+	font-size:10px;
+	font-weight:bold;
+}
+.blackLigth { 
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+	color:#000000; 
+	font-size:10px; 
+	font-weight:normal;
+}
+
+
+
+/* decibel_tracker */
+.decibel_boxBgColor { background-color:#DEDEDE; }
+.decibel_trackerBox { height: 618px; }
+.decibel_trackerText { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #7b7978; }
+#decibel_tracker2Left { background-image: url(/web/20071006142241im_/http://www.mycoke.com/images/2007/decibel_tracker2L.jpg); background-repeat: no-repeat; width: 237px; height: 500px; }
+#decibel_trackerRight { background-image: url(/web/20071006142241im_/http://www.mycoke.com/images/2007/decibel_trackerRight.gif); background-repeat: no-repeat; width: 237px; height: 618px; }
+#decibel_tracker2Right { background-image: url(/web/20071006142241im_/http://www.mycoke.com/images/2007/decibel_trackerRight.gif); background-repeat: no-repeat; width: 237px; height: 500px; }
+#decibel_tracker2Left_no_bottom { background-image: url(/web/20071006142241im_/http://www.mycoke.com/images/2007/decibel_tracker2L_no_bottom.jpg); background-repeat: no-repeat; width: 237px; height: 610px; }
+#decibel_trackerRight_no_bottom { background-image: url(/web/20071006142241im_/http://www.mycoke.com/images/2007/decibel_trackerRight_no_bottom.gif); background-repeat: no-repeat; width: 237px; height: 610px; }
+.decibel_trackerRed { font-family:Verdana, Arial, Helvetica, sans-serif; color:#E20A16; font-size:11px; padding-bottom:10px; vertical-align:middle; }
+.decibel_trackerWhiteLine { background-color: #ffffff; height: 1px; }
+.decibel_trackerTable { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #7b7978; height: 19px; }
+.decibel_trackerCell { padding:3px; border-bottom:1px white solid; text-align:center; }
+
+/* iframeTop */
+.topBox { width: 1020px; height: 182px; }
+.contentBox { width: 1020px; height: 543px; }
+ 
+/* email to a friend form */
+.emailFormField { background-image: url(/web/20071006142241im_/http://www.mycoke.com/images/2007/email_inputBackground.gif); background-repeat: no-repeat; }
+.emailInput { margin-left: 5px; width: 153px; height: 16px; border: 0; }
+
+/* footer email to a friend */
+.emailFriendFooter { font-family: "Myriad Web Pro", Arial, Helvetica, sans-serif; font-size: 9px; color: #333333; text-transform: capitalize;}
+
+/* shockwave */
+.shockwave_Text { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #666666; }
+.shockwave_darkGrayText { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #333333; }
+
+/* cookies */
+.cookies_Text { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #666666; }
+.cookies_redText { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #ed1c16; }
+
+/* safety */
+.safety_TextBold { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #000000; font-weight: bold;}
+
+/* decibel_tracker */
+.decibel_trackerRed { font-family:Verdana, Arial, Helvetica, sans-serif; color:#E20A16; font-size:11px; }

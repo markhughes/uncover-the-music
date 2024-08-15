@@ -1,0 +1,133 @@
+.root {
+  position: fixed;
+  background-image: url("../../assets//ui/lobby/lobby_background.png");
+  background-repeat: none;
+  width: 352px;
+  max-width: 352px;
+  height: 444px;
+  max-height: 444px;
+  cursor: default;
+}
+
+.inner {
+  width: 310px;
+  max-width: 305px;
+  height: 400px;
+  max-height: 400px;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+
+.header {
+  color: #ffffff91;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.tabs {
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.tabActive {
+  text-align: center;
+  width: 141px;
+  height: 24px;
+
+  background-image: url("../../assets//ui/lobby/tabs/active.svg");
+}
+.tabInactive {
+  text-align: center;
+
+  width: 141px;
+  height: 24px;
+
+  background-image: url("../../assets//ui/lobby/tabs/inactive.svg");
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-height: 250px;
+  height: 250px;
+}
+
+
+
+
+
+
+
+.table {
+  padding: 5px;
+  background-color: #efe1d2;
+  width: 100%;
+  overflow: auto;
+  font-size: 14px;
+}
+
+.tableHeader {
+  display: grid;
+  grid-template-columns: 1fr 120px 50px 20px;
+  color: #ffecd9;
+  height: 22px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #efe1d2;
+  align-items: center;
+  column-gap: 5px;
+  padding-bottom: 5px;
+}
+
+.tableHeader > div {
+  background-image: url('../../assets/ui/lobby/header_tab.svg');
+  background-size: cover;
+  text-decoration: underline;
+  line-height: 22px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.tableHeader > div.nbg {
+  background-image: none;
+}
+
+.tableBody {
+  display: grid;
+  grid-auto-rows: 22px;
+  color: #663300;
+  column-gap: 5px;
+  row-gap: 5px; /* Adjust the row gap to your preference */
+  overflow: auto;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 120px 50px 20px;
+  align-items: center;
+  &:hover {
+    background: #cab4a1;
+  }
+  border-radius: 2px;
+
+  &.selected {
+    background: #ceb095;
+  }
+}
+
+.player {
+  height: 18px;
+  padding: 2px;
+  border-radius: 100%;
+  padding-right: 1px;
+}
