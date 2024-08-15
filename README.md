@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/markhughes/uncover-the-music/blob/main/media/uncover-the-music.png?raw=true"/>
+</p>
+
 # Uncover The Music
 
 This project is a rebuild of "Uncover The Music", a game from the MyCoke/Coke Studios/Coke Music.
